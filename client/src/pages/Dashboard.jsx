@@ -3,7 +3,7 @@ import axios from 'axios'
 import { format, formatDistanceToNow } from 'date-fns'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
-const API_URL = 'http://localhost:3001/api'
+const API_URL = 'http://192.168.1.171:3001/api'
 
 export default function Dashboard() {
   const [endpoints, setEndpoints] = useState([])

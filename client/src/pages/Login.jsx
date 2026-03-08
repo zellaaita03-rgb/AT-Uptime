@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3001/api'
+const API_URL = 'http://192.168.1.171:3001/api'
 
 export default function Login({ onLogin }) {
   const navigate = useNavigate()
