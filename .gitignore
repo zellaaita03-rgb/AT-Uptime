@@ -1,0 +1,5 @@
+# AT-Uptime
+node_modules/
+client/node_modules/
+*.db
+.DS_Store
